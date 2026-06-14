@@ -21,10 +21,7 @@ except ImportError:
         ChatPromptTemplate,
     )
 
-try:
-    from langchain_groq import ChatGroq
-except ImportError:
-    from langchain_community.llms import ChatGroq
+from langchain_groq import ChatGroq
 
 
 # -----------------------------
