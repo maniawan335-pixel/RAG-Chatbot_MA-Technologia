@@ -32,8 +32,8 @@ ENV/
 env.bak/
 venv.bak/
 
-# ── FAISS index (large binary files — regenerated locally) ──────────────────
-faiss_index/
+# ── FAISS index — committed so Streamlit Cloud can load it directly ──────────
+# faiss_index/ is intentionally tracked in git
 
 # ── Jupyter Notebooks checkpoints ──────────────────────────────────────────
 .ipynb_checkpoints/
