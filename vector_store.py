@@ -1,5 +1,5 @@
 import os
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from document_loader import load_documents, split_documents
 
